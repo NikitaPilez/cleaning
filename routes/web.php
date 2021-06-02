@@ -20,6 +20,9 @@ Route::get('/services', [IndexController::class, 'services']);
 Route::get('/contacts', [IndexController::class, 'contacts']);
 Route::get('/blog', [BlogController::class, 'list']);
 Route::get('/blog/{slug}', [BlogController::class, 'item']);
+Route::get('/form', function () {
+    return view('index.form');
+});
 
 
 Route::group(['prefix' => 'admin'], function () {
