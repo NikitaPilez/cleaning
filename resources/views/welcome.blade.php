@@ -26,6 +26,7 @@
                     <div class="container">
                         <nav>
                             <ul>
+                                <li><a href="{{ asset('order') }}">Заказать</a></li>
                                 <li><a href="{{ asset('contacts') }}">Контакты</a></li>
                                 <li><a href="{{ asset('services') }}">Сервисы</a></li>
                                 <li><a href="{{ asset('blog') }}">Блог</a></li>

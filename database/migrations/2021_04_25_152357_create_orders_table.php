@@ -20,7 +20,10 @@ class CreateOrdersTable extends Migration
             $table->string('name');
             $table->string('phone');
             $table->string('email');
-            $table->timestamp('birthday');
+            $table->string('date');
+            $table->string('time');
+            $table->string('city');
+            $table->string('street');
             $table->timestamps();
 
             $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');

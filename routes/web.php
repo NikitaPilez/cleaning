@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,7 +21,8 @@ Route::get('/services', [IndexController::class, 'services']);
 Route::get('/contacts', [IndexController::class, 'contacts']);
 Route::get('/blog', [BlogController::class, 'list']);
 Route::get('/blog/{slug}', [BlogController::class, 'item']);
-
+Route::get('/order', [OrderController::class, 'showForm']);
+Route::get('/ordering', [OrderController::class, 'ordering']);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

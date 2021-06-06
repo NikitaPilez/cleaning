@@ -13,4 +13,9 @@ class Order extends Model
     {
         return $this->belongsTo(Tour::class);
     }
+    
+    public function service()
+    {
+        return $this->belongsTo(Service::class);
+    }
 }
