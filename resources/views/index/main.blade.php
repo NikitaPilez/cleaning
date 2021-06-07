@@ -83,7 +83,7 @@
     <footer id="footer">
         <div class="copyright-content">
             <div class="container">
-                <div class="copyright-text text-center">&copy; 2021 Cleaning - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="//www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>
+                <div class="copyright-text text-center">&copy; 2021 Cleaning - Responsive Multi-Purpose HTML5 Template. All Rights Reserved. </div>
             </div>
         </div>
     </footer>

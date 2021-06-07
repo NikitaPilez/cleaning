@@ -28,7 +28,7 @@
                             <ul>
                                 <li><a href="{{ asset('order') }}">Заказать</a></li>
                                 <li><a href="{{ asset('contacts') }}">Контакты</a></li>
-                                <li><a href="{{ asset('services') }}">Сервисы</a></li>
+                                <li><a href="{{ asset('services') }}">Услуги</a></li>
                                 <li><a href="{{ asset('blog') }}">Блог</a></li>
                                 @if (Auth::check())
 {{--                                    <li><a href="{{ asset('home') }}">Статистика</a></li>--}}

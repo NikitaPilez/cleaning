@@ -44,7 +44,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="example-time-input">Время</label>
-                    <input class="form-control" type="time" name="datetime" min="09:00" max="21:00" value="13:45:00"
+                    <input class="form-control" type="time" name="datetime" min="09:00" max="21:00" value="09:00:00"
                         id="example-time-input">
                 </div>
             </div>
