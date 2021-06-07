@@ -23,16 +23,11 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function index()
     {
-
-        $orders = Order::all();
-
-        return view('home',[
-            'orders' => $orders,
-        ]);
+        return redirect()->route('main');
     }
 
 
